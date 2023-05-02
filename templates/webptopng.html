@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebP to PNG Converter</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
+  </head>
+  <body>
+    <h1>WebP to PNG Converter</h1>
+    <form id="upload-form">
+      <label for="image-input">Select an image:</label>
+      <div id="image-preview"></div>
+      <input type="file" id="image-input" accept=".webp">
+      <button type="submit" id="convert-btn">Convert to PNG</button>
+    </form>
+    <div id="error-message"></div>
+    <div id="result-image"></div>
+<script src="../static/scripts/webptopng.js"></script>
+  </body>
+</html>

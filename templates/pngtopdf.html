@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PNG to PDF Converter</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
+  </head>
+  <body>
+    <h1>PNG to PDF Converter</h1>
+    <form id="upload-form">
+      <label for="image-input">Select an image:</label>
+      <div id="image-preview"></div>
+      <input type="file" id="image-input" accept=".png">
+      <button type="submit" id="convert-btn">Convert to PDF</button>
+    </form>
+    <div id="error-message"></div>
+    <div id="result-link"></div>
+<script src="../static/scripts/pngtopdf.js"></script>
+  </body>
+</html>
